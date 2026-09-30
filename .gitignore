@@ -1,0 +1,21 @@
+# Android / Gradle
+*.iml
+.gradle/
+build/
+app/build/
+local.properties
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+# IDE
+.idea/
+*.iws
+.DS_Store
+# Keystore
+*.jks
+*.keystore
+# Pero NUNCA ignorar el wrapper (imprescindible para GitHub Actions)
+!gradle/wrapper/gradle-wrapper.jar
